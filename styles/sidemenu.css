@@ -1,0 +1,46 @@
+.side-menu-mobile{
+    /* display: none; */
+    position: absolute;
+    background-color: var(--off-white);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.mobile-side-menu__icon{
+    position: absolute;
+    right: 10%;
+    top: 0;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.side-menu-mobile ul{
+    list-style: none;
+    margin-left: 8%;
+}
+
+.side-menu-mobile ul li{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    transition: transform 250ms ease;
+}
+
+.side-menu-mobile ul li:hover{
+    transform: translateX(10px);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    background-color: black;
+    z-index: 1;
+}

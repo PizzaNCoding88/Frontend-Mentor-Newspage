@@ -1,0 +1,20 @@
+@media only screen and (max-width: 500px){
+    /* HEADER */
+
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .logo-container {
+        margin-left: 5%;
+    }
+
+    .mobile-side-menu{
+        margin-right: 5%;
+    }
+}
