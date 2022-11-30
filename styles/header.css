@@ -1,5 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desktop-side-menu__ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.desktop-side-menu__ul li{
+    margin-inline: 20px;
+}
+
+
+.mobile-side-menu{
+    display: none;
+}
+
+
 @media only screen and (max-width: 500px){
-    /* HEADER */
 
     header{
         width: 100%;
@@ -15,6 +35,11 @@
     }
 
     .mobile-side-menu{
+        display: block;
         margin-right: 5%;
+    }
+
+    .desktop-side-menu__ul{
+        display: none;
     }
 }

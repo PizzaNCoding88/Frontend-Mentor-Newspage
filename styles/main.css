@@ -11,8 +11,8 @@
 }
 
 body{
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box;
+    padding: 5%; 
     /* height: 150vh; */
     width: 100%;
 }
@@ -163,5 +163,24 @@ body{
         font-size: 0.8rem;
         word-spacing: 0.1rem;
         padding-right: 0.5rem;
+    }
+
+    .attribution{
+        text-align: center;
+        position: relative;
+    }
+
+    .attribution:before{
+        position: absolute;
+        top: -10px;
+        left: 10%;
+        content: "";
+        width: 80%;
+        height: 1px;
+        background-color: var(--grayish-blue);
+    }
+
+    .attribution a{
+        color: black;
     }
 }

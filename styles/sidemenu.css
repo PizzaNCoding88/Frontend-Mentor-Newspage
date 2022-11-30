@@ -1,14 +1,18 @@
 .side-menu-mobile{
-    /* display: none; */
     position: absolute;
     background-color: var(--off-white);
     top: 0;
     bottom: 0;
     right: 0;
-    width: 70%;
+    width: 0px;
     z-index: 2;
     display: flex;
     align-items: center;
+    transition: width 500ms ease-in-out;
+}
+
+.show{
+    width: 70%;
 }
 
 .mobile-side-menu__icon{
@@ -17,9 +21,16 @@
     top: 0;
     font-size: 3.5rem;
     font-weight: 400;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out 100ms;
+}
+
+.show1{
+    opacity: 1;
 }
 
 .side-menu-mobile ul{
+    display: none;
     list-style: none;
     margin-left: 8%;
 }
@@ -35,6 +46,7 @@
 }
 
 .overlay{
+    display: none;
     position: absolute;
     top: 0;
     bottom: 0;
