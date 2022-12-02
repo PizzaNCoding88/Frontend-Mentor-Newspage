@@ -94,6 +94,10 @@ body{
     width: 50%;
 }
 
+.articles-section__btn:hover{
+    background-color: black;
+}
+
 .news-section{
     background-color: var(--very-dark-blue);
     color: var(--off-white);
@@ -111,6 +115,11 @@ body{
     margin-left: 7%;
     margin-right: 10%;
     font-weight: 800;
+}
+
+.news-section__title:hover{
+    color: #eaab4e;
+    transform: scale(1.05);
 }
 
 .news-section p{
@@ -159,6 +168,10 @@ body{
 .bottom-section__right-side__title{
     font-weight: 800;
     font-size: 1rem;
+}
+
+.bottom-section__right-side__title:hover{
+    color: #eaab4e;
 }
 
 .attribution{

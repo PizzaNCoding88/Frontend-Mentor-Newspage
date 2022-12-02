@@ -13,6 +13,11 @@ header{
     margin-inline: 20px;
 }
 
+.desktop-side-menu__ul li:hover{
+    color: #f15d51;
+    font-weight: 700;
+    transform: scale(1.3);
+}
 
 .mobile-side-menu{
     display: none;
