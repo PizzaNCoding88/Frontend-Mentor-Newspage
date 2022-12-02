@@ -161,6 +161,24 @@ body{
     font-size: 1rem;
 }
 
+.attribution{
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.attribution::before{
+    content: "";
+    width: 80%;
+    height: 1px;
+    background-color: var(--dark-grayish-blue);
+
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* MOBILE */
 @media only screen and (max-width: 500px){
     body{
@@ -352,12 +370,14 @@ body{
     .attribution{
         text-align: center;
         position: relative;
+        padding-bottom: 10px;
     }
 
     .attribution:before{
         position: absolute;
-        top: -10px;
-        left: 10%;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
         content: "";
         width: 80%;
         height: 1px;
