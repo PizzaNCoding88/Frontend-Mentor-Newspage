@@ -16,6 +16,8 @@ body{
     /* height: 150vh; */
     width: 100%;
     font-family: 'Inter', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .desktop-central{
